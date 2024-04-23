@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha seu Pokemon</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #f2f2f2; /* cinza claro */
+        }
+
+        .container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content {
+            background-color: #fff; /* branco */
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 40px; /* Aumentei o espaço para evitar cortes */
+        }
+
+        .pokemon-gallery {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .pokemon-card {
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+
+        .pokemon-card:hover img {
+            transform: scale(1.2);
+        }
+
+        .pokemon-card img {
+            width: 200px;
+            height: auto;
+            transition: transform 0.3s;
+        }
+
+        .pokemon-name {
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Escolha seu Pokemon</h1>
+            <div class="pokemon-gallery">
+                <div class="pokemon-card">
+                    <a href="Bulbasaur.html">
+                        <img src="img/pokebola.jpg" alt="Bulbasaur">
+                    </a>
+                    <p class="pokemon-name">Bulbasaur</p>
+                </div>
+                <div class="pokemon-card">
+                    <a href="Charmander.html">
+                        <img src="img/pokebola.jpg" alt="Charmander">
+                    </a>
+                    <p class="pokemon-name">Charmander</p>
+                </div>
+                <div class="pokemon-card">
+                    <a href="Squirtle.html">
+                        <img src="img/pokebola.jpg" alt="Squirtle">
+                    </a>
+                    <p class="pokemon-name">Squirtle</p>
+                </div>
+                <div class="pokemon-card">
+                    <a href="Pikachu.html">
+                        <img src="img/pokebola.jpg" alt="Pikachu">
+                    </a>
+                    <p class="pokemon-name">???</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
