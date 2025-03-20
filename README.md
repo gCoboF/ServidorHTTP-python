@@ -20,6 +20,7 @@ Este projeto consiste em um servidor HTTP básico desenvolvido em Python que hos
 ## Estrutura do Projeto
 
 ServidorHTTP-python/
+
 │
 ├── servidorHTTP.py    # Arquivo principal do servidor
 
