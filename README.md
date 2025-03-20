@@ -22,10 +22,14 @@ Este projeto consiste em um servidor HTTP básico desenvolvido em Python que hos
 ServidorHTTP-python/
 │
 ├── servidorHTTP.py    # Arquivo principal do servidor
+
 │
 └── htdocs/       # Diretório com arquivos da aplicação web
+
 ├── index.html    # Página inicial
+
 ├── *.html        # Páginas individuais dos Pokémon
+
 └── img/          # Diretório de imagens
 
 ## Como Executar
