@@ -6,8 +6,7 @@ Um servidor HTTP simples implementado em Python que serve uma Pokédex interativ
 
 Este projeto consiste em um servidor HTTP básico desenvolvido em Python que hospeda uma aplicação web de Pokédex. Os usuários podem navegar por diferentes Pokémon e visualizar suas características, tipos e evoluções.
 
-![image](https://github.com/user-attachments/assets/26b34c9d-3407-4ba7-abcc-8e85720132de)
-
+![image](https://github.com/user-attachments/assets/68437ab1-76cf-4986-a6fc-a7a1c20463ee)
 
 ## Funcionalidades
 
